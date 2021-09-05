@@ -1,6 +1,6 @@
+import { CartItemType } from "../../models/cart.model";
 import CartItem from "../CartItem/CartItem";
 import { Wrapper } from "./Cart.style";
-import { CartItemType } from "../models/cart.model";
 
 type Props = {
   cartItems: CartItemType[];
