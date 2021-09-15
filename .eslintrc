@@ -19,7 +19,7 @@
   },
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }],
-    "no-unused-vars": "warn",
+    "no-unused-vars": "error",
     "no-unused-expressions": "warn",
     "quotes": ["warn", "double"],
     "react/jsx-uses-vars": "error",
