@@ -25,7 +25,7 @@ const App = () => {
 		"products",
 		getProducts
 	);
-	console.log("data :" + data);
+	//console.log(data);
 
 	const getTotalItems = (items: CartItemType[]) => {
 		return items.reduce((acc: number, item) => acc + item.amount, 0);
